@@ -3,13 +3,12 @@ var img = document.querySelector('img');
 
 img.onclick = function(){
 
-                var my_img = img.getAttribute('src');
-                if(my_img === 'images/daffodils.jpeg'){
+                
+                if(img.getAttribute('src') === 'images/daffodils.jpeg'){
                     
                     img.setAttribute('src', 'images/daisy.jpeg');
                     }
                 else{
-                    
                     img.setAttribute('src', 'images/daffodils.jpeg');
                     }
                     
